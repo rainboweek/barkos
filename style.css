@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-weight: bold;
+    background-image: url(/241571.jpg);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+.bg-light {
+    background-image: url(./241571.jpg);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white
+}
+.logo {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+ul li a {
+    font-size: 18px !important;
+    font-family: 'Poppins', sans-serif;
+    transition: 1s;
+}
+ul li a:hover {
+    color: black !important;
+    transition: 1s;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255 / 90%);
+}
+.full {
+    font-size: 10rem !important;
+}
+.container {
+    display: flex;
+    margin-top: 300px;
+    font-size: 50px !important;
+    animation: animate 10s infinite;
+}
+.size {
+    display: flex;
+    font-size: 6rem;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 1s;
+    font-family: 'Poppins', sans-serif;
+}
+.recontainer {
+    font-size: 30px;
+    margin-left: 400px;
+    color: black;
+    font-weight: bold;
+    animation: textcolor 5s infinite;
+    font-family: 'Poppins', sans-serif;
+    animation: pod 2s infinite;
+}
+.image {
+    margin-left: 1000px;
+    margin-top: -500px;
+    transition-duration: 2s;
+    animation: animate 2s infinite;
+}
+@keyframes animate {
+    0% {}
+    50% {filter: drop-shadow(0px 0px 10px #a863e59f);
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);}
+}
+.footer {
+    margin-top: 100px;
+    margin-left: 800px;
+    font-size: 20px;
+    animation: footer 5s infinite;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+@keyframes footer {
+    0% {}
+    50% {color: white}
+    100% {color: rgb(64, 15, 199);}
+}
+.headercen {
+    margin-left: 700px;
+    font-size: 8rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    animation: headercen 5s infinite ;
+}
+.JOBS {
+    margin-left: 750px;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black
+}
+@keyframes headercen {
+    0% {color: white;}
+    25% {color: rgb(216, 106, 216);}
+    50% {color: violet;}
+    75% {color: rgb(204, 137, 204);}
+    100% {color: thistle;}
+}
+.form {
+    margin-left: 400px;
+}
+.button1 {
+    border-radius: 50px;
+	background: linear-gradient(-45deg, #A963E5 , #5d3deb);
+    border: 0px;
+    color: #fff;
+    overflow: hidden;
+    padding: 10px 30px;
+    font-size: 100px;
+	transition: 1s;
+    font-weight: bold;
+margin-left: 730px;
+margin-top: 250px;
+}
